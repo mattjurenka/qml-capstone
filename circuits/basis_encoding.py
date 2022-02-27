@@ -1,6 +1,5 @@
 from qiskit import QuantumCircuit
 
-
 def get_basis_encoding(x: int) -> QuantumCircuit:
     circuits = len(bin(x))
     initial = [0,1]
